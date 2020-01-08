@@ -14,7 +14,16 @@
 export default {
   created(){
     console.log(this.$route.params.id)
-    console.log(this.$store.state.posts.all)
+    console.log(this.$store.getters['posts/getAll'])
+  },
+  head(){
+    return{
+      title:'Post',
+      meta:[
+        {name:'twitter:title',content:"contentcontentcontent"},
+        {name:'twitter:description',content:"descriptiondescriptiondescription"},
+      ]
+    }
   }
 
 }
@@ -23,7 +32,6 @@ export default {
 <style lang="scss" scoped>
 .container{
   width: 90%;
-  margin: 30px auto;
   p{
     color:white;
   }

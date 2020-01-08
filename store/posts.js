@@ -13,8 +13,8 @@ export const state = () => ({
     content:"djaosjdoa[ dsoap dsaop"
   }]
 })
-export const getters = () => ({
+export const getters = {
   getAll({all}){
     return all;
   }
-})
+}
