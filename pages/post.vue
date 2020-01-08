@@ -13,13 +13,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .container{
   width: 90%;
   margin: 30px auto;
+  p{
+    color:white;
+  }
 }
-p{
-  color:white;
-}
-
 </style>
