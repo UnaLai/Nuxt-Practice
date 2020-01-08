@@ -52,4 +52,7 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+h1{
+  color:#3b8070;
+}
 </style>
