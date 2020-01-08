@@ -1,0 +1,18 @@
+<template>
+  <div class="container">
+    <article>
+      <h1>hello</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum adipisci magni voluptate! Fugiat, illo! Placeat exercitationem enim ut similique quisquam pariatur rem sequi accusamus optio quis eligendi sit, praesentium cum?</p>
+    </article>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
