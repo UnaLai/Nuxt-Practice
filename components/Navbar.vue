@@ -1,7 +1,8 @@
 <template>
   <nav class="nav">
     <div class="logo">
-      <a href="#">home</a>
+      <nuxt-link :to="{name:'index'}">Home</nuxt-link>
+      <nuxt-link :to="{name:'post-id',params:{id:'1'}}">Post</nuxt-link>
     </div>
   </nav>
 </template>
