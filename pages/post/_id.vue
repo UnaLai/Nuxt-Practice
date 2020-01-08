@@ -14,6 +14,7 @@
 export default {
   created(){
     console.log(this.$route.params.id)
+    console.log(this.$store.state.posts.all)
   }
 
 }
