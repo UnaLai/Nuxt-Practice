@@ -14,7 +14,7 @@
 export default {
   created(){
     console.log(this.$route.params.id)
-    console.log(this.$store.getters['posts/getAll'])
+    console.log(this.$store.getters.getAll)
   },
   head(){
     return{

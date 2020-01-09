@@ -1,3 +1,4 @@
+export const namespaced = false
 export const state = () => ({
   all:[{
     id:1,
@@ -13,6 +14,7 @@ export const state = () => ({
     content:"djaosjdoa[ dsoap dsaop"
   }]
 })
+
 export const getters = {
   getAll({all}){
     return all;
