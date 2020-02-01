@@ -3,6 +3,7 @@
     <article>
       <h1>{{$route.params.id}}</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum adipisci magni voluptate! Fugiat, illo! Placeat exercitationem enim ut similique quisquam pariatur rem sequi accusamus optio quis eligendi sit, praesentium cum?</p>
+      <p>{{$store.getters.getAll}}</p>
     </article>
     <a href="/post/p1">see p1</a>
     <a href="/post/p2">see p2</a>
